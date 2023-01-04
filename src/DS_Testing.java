@@ -1,7 +1,33 @@
-package coursera_notes.src;
 
 public class DS_Testing {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
+
+        
+        
+        GenericQueue<String> q = new GenericQueue<String>();
+        q.enqueue("21");
+        q.enqueue("march");
+        q.enqueue("2004");
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        q.PrintAllNodes(); 
+        
+        /* 
+        GenericQueue<Integer> q = new GenericQueue<Integer>();
+        q.enqueue(21);
+        q.enqueue(03);
+        q.enqueue(2004);
+        System.out.println(q.dequeue());
+        q.PrintAllNodes();
+        */
+        /* 
+        GenericLinkedList<Integer> ll = new GenericLinkedList<Integer>();
+        ll.insert(23);
+        ll.insert(365);
+        ll.insert(143);
+        ll.PrintAllNodes();
+        */
         /* 
         Linked_List llist = new Linked_List();
         llist.insert(07);

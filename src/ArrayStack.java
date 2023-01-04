@@ -1,4 +1,4 @@
-package coursera_notes.src;
+//package coursera_notes.src;
 
 public class ArrayStack {
     private int top=0;

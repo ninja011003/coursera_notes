@@ -1,15 +1,14 @@
-//package coursera_notes.src;
 
-public class Linked_List {
+public class GenericLinkedList<Item> {
     private class Node{
-        int item;
+        Item item;
         Node next;
-        Node(int n){
+        Node(Item n){
             item= n;
         }
     }
     Node head;
-    protected void insert(int n){
+    protected void insert(Item n){
         Node NewNode = new Node(n);
         if(head==null){
             head=NewNode;
@@ -21,8 +20,8 @@ public class Linked_List {
             LastNode.next=NewNode;
         }
     }
-    protected int delete_head(){
-        int item=-1;
+    protected Item delete_head(){
+        Item item=null;
         if(head==null){
             System.out.println("Data Structure empty");
             System.exit(-1);
@@ -33,8 +32,8 @@ public class Linked_List {
         }
         return item;
     }
-    protected int delete_tail(){
-        int item=-1;
+    protected Item delete_tail(){
+        Item item=null;
         Node CurrNode=head;
         if(CurrNode==null){
             System.out.println("Data Structure empty");

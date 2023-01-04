@@ -1,4 +1,4 @@
-package coursera_notes.src;
+//package coursera_notes.src;
 
 public class queue {
     protected class Node{
@@ -16,6 +16,17 @@ public class queue {
         rear=NewNode;
         if(front==null)
             front=rear;
+    }
+    public void PrintAllNodes(){
+        if(front!=null){
+            while(front.next!=null){
+                System.out.print(front.item+"-");
+            }
+            System.out.println(front.item);
+        }
+        else{
+            System.out.println("Queue is empty");
+        }
     }
     public int  dequeue(){
         if(rear==null){

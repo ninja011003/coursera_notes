@@ -1,4 +1,4 @@
-package coursera_notes.src;
+//package coursera_notes.src;
 
 import java.util.Scanner;
 public class sample {
@@ -16,6 +16,8 @@ public class sample {
     */
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
+         
+        
         /*  
         int a[]={30,-40,-20,-10,40,0,10,5};
         Stopwatch sw = new Stopwatch();
