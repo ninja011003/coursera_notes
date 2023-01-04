@@ -1,9 +1,13 @@
 
+
 public class DS_Testing {
     public static void main(String[] args)  {
-
-        
-        
+        int[] a={1,34,2,12,4,5,4};
+        Sort.Selection(a);
+        for(int i=0;i<a.length;i++){
+            System.out.println(a[i]);
+        }
+        /* 
         GenericQueue<String> q = new GenericQueue<String>();
         q.enqueue("21");
         q.enqueue("march");
@@ -12,7 +16,7 @@ public class DS_Testing {
         System.out.println(q.dequeue());
         System.out.println(q.dequeue());
         q.PrintAllNodes(); 
-        
+        */
         /* 
         GenericQueue<Integer> q = new GenericQueue<Integer>();
         q.enqueue(21);

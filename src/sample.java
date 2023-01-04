@@ -16,7 +16,6 @@ public class sample {
     */
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-         
         
         /*  
         int a[]={30,-40,-20,-10,40,0,10,5};
