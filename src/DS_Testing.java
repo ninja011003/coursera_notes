@@ -1,7 +1,9 @@
 
 
 public class DS_Testing {
+
     public static void main(String[] args)  {
+        
         int[] a={1,34,2,12,4,5,4};
         Sort.Selection(a);
         for(int i=0;i<a.length;i++){
